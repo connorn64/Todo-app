@@ -11,7 +11,7 @@ function checkInput () {
     if (inputLength > 0) {
         addTask();
     } else {
-        alert('Please enter a task');
+        alert('Please enter a task...');
     }
 };
 
@@ -52,5 +52,3 @@ function addTask () {
 
 // Initial Event listener
 submitBtn.addEventListener('click', checkInput);
-
-
